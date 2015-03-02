@@ -24,6 +24,7 @@ endpoints:
         collectionFormat: multi
         elems:
           type: number
+          format: double
       - name: w
         description: Parameter W
         type: string
