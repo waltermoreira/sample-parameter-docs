@@ -18,6 +18,18 @@ endpoints:
         format: int64
         required: false
         default: 5
+      - name: z
+        description: Parameter Z
+        type: array
+        collectionFormat: multi
+        elems:
+          type: number
+      - name: w
+        description: Parameter W
+        type: string
+        enum:
+          - Foo
+          - Bar
     response:
       type: array
       items:
