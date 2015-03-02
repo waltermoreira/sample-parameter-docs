@@ -6,6 +6,8 @@ def search(args):
     y = args['y']
     assert isinstance(x, basestring)
     assert isinstance(y, int)
+    print json.dumps(args)
+    print '---'
     print json.dumps('x = {}'.format(x))
     print '---'
     print json.dumps('y = {}'.format(y))
