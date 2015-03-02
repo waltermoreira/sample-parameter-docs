@@ -1,0 +1,24 @@
+---
+
+name: foo
+type: query
+
+endpoints:
+  /search:
+    parameters:
+      - name: x
+        description: Parameter X
+        type: string
+        required: true
+      - name: y
+        description: Parameter Y
+        type: integer
+        format: int64
+        required: false
+        default: 5
+    response:
+      type: array
+      items:
+        type: string
+      description: The Result
+
