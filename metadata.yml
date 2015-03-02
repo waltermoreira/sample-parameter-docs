@@ -3,6 +3,8 @@
 name: foo
 type: query
 
+validate_request: yes
+
 endpoints:
   /search:
     parameters:
