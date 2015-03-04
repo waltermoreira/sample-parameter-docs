@@ -21,6 +21,7 @@ endpoints:
       - name: z
         description: Parameter Z
         type: array
+        required: true
         collectionFormat: multi
         items:
           type: number
@@ -28,6 +29,7 @@ endpoints:
       - name: w
         description: Parameter W
         type: string
+        required: true
         enum:
           - Foo
           - Bar
