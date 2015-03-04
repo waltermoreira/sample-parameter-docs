@@ -1,6 +1,6 @@
 ---
 
-name: foo
+name: my_adapter
 type: query
 
 validate_request: yes
@@ -31,11 +31,6 @@ endpoints:
         type: string
         required: true
         enum:
-          - Foo
-          - Bar
-    response:
-      type: array
-      items:
-        type: string
-      description: The Result
+          - Spam
+          - Eggs
 
